@@ -147,26 +147,18 @@ struct Home: View {
                             Spacer()
                             
                         }.padding(.bottom,8)
-                        
-                        
-                        
                         Spacer()
-                        
-                    }.padding(.bottom,6)
-                    
-                }
+                        }.padding(.bottom,6)
+                    }
             }
         }
         .padding()
         .background(Color(white: 0.18))
         
     }
-    
 }
     
     
-
-
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
         Home()

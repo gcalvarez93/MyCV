@@ -14,7 +14,7 @@ struct Projects: View {
                 HStack{
                     Text("Mis Proyectos")
                         .foregroundColor(Color.white)
-                        .font(.system(size: 30, weight: .bold))
+                        .font(.system(size: 35, weight: .bold))
                     
                     Spacer()
                 }.padding()

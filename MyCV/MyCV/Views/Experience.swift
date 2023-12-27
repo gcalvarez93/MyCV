@@ -15,7 +15,7 @@ struct Experience: View {
                 HStack{
                     Text("Experiencia Laboral")
                         .foregroundColor(Color.white)
-                        .font(.system(size: 30, weight: .bold))
+                        .font(.system(size: 35, weight: .bold))
                     
                     Spacer()
                 }.padding()
@@ -37,7 +37,7 @@ struct Experience: View {
                     }.padding(.bottom,15)
                     
                     HStack{
-                        Text("- Used Agile Practices on managing large scale MEP projects")
+                        Text("- Desarrollo de apps iOS y Android")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -45,7 +45,7 @@ struct Experience: View {
                     }.padding(.bottom,6)
                     
                     HStack{
-                        Text("► Followed and led teams on MEP projects")
+                        Text("- Implementación de API REST")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -53,7 +53,7 @@ struct Experience: View {
                     }.padding(.bottom,6)
                     
                     HStack{
-                        Text("► Strengthened time management skills through managing multiple projects,prioritizing based on the needs and schedules")
+                        Text("- Diseño de UX/UI")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -61,7 +61,7 @@ struct Experience: View {
                     }.padding(.bottom,6)
                     
                     HStack{
-                        Text("► Worked as a team player on large projects which involved many engineering groups.")
+                        Text("- Implemetación de mapas y cifrado y persistencia de datos.")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -87,7 +87,7 @@ struct Experience: View {
                     }.padding(.bottom,15)
                     
                     HStack{
-                        Text("- Used Agile Practices on managing large scale MEP projects")
+                        Text("- Desarrollo iOS")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -95,7 +95,7 @@ struct Experience: View {
                     }.padding(.bottom,6)
                     
                     HStack{
-                        Text("► Followed and led teams on MEP projects")
+                        Text("- Metodologías ágiles")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -103,7 +103,7 @@ struct Experience: View {
                     }.padding(.bottom,6)
                     
                     HStack{
-                        Text("► Strengthened time management skills through managing multiple projects,prioritizing based on the needs and schedules")
+                        Text("- Clean Code")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -111,7 +111,7 @@ struct Experience: View {
                     }.padding(.bottom,6)
                     
                     HStack{
-                        Text("► Worked as a team player on large projects which involved many engineering groups.")
+                        Text("- Resolución de bugs")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -135,7 +135,7 @@ struct Experience: View {
                     }.padding(.bottom,15)
                     
                     HStack{
-                        Text("- Used Agile Practices on managing large scale MEP projects")
+                        Text("- Desarrollo de apps iOS")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -143,7 +143,7 @@ struct Experience: View {
                     }.padding(.bottom,6)
                     
                     HStack{
-                        Text("► Followed and led teams on MEP projects")
+                        Text("- Diseño UX/UI")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -151,20 +151,12 @@ struct Experience: View {
                     }.padding(.bottom,6)
                     
                     HStack{
-                        Text("► Strengthened time management skills through managing multiple projects,prioritizing based on the needs and schedules")
+                        Text("- Despliegue en App Store")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
                         
                     }.padding(.bottom,6)
-                    
-                    HStack{
-                        Text("► Worked as a team player on large projects which involved many engineering groups.")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,12)
                     
                     HStack{
                         Text("Freelance")
@@ -183,7 +175,7 @@ struct Experience: View {
                     }.padding(.bottom,15)
                     
                     HStack{
-                        Text("- Used Agile Practices on managing large scale MEP projects")
+                        Text("- Desarrollo de apps iOS y Android")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -191,7 +183,7 @@ struct Experience: View {
                     }.padding(.bottom,6)
                     
                     HStack{
-                        Text("► Followed and led teams on MEP projects")
+                        Text("- Implemetación de API REST")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
@@ -199,30 +191,14 @@ struct Experience: View {
                     }.padding(.bottom,6)
                     
                     HStack{
-                        Text("► Strengthened time management skills through managing multiple projects,prioritizing based on the needs and schedules")
+                        Text("- Diseño de UX/UI")
                             .foregroundColor(Color.white)
                             .font(.system(size: 16, weight: .regular))
                         Spacer()
                         
                     }.padding(.bottom,6)
-                    
-                    HStack{
-                        Text("► Worked as a team player on large projects which involved many engineering groups.")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                        
-                        
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
-                    
                 }
-                
-                
                 Spacer()
-                
             }
         }
         .padding()

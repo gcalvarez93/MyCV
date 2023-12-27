@@ -16,7 +16,7 @@ struct Education: View {
                     HStack{
                         Text("Formación")
                             .foregroundColor(Color.white)
-                            .font(.system(size: 20, weight: .bold))
+                            .font(.system(size: 35, weight: .bold))
                         Spacer()
                         
                     }.padding()
