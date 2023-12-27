@@ -14,6 +14,9 @@
 		B61E39802B3C3D7200188261 /* MyCVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E397F2B3C3D7200188261 /* MyCVTests.swift */; };
 		B61E398A2B3C3D7200188261 /* MyCVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E39892B3C3D7200188261 /* MyCVUITests.swift */; };
 		B61E398C2B3C3D7200188261 /* MyCVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E398B2B3C3D7200188261 /* MyCVUITestsLaunchTests.swift */; };
+		B61E399A2B3C67D200188261 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E39992B3C67D200188261 /* Home.swift */; };
+		B61E399C2B3C682100188261 /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E399B2B3C682100188261 /* Projects.swift */; };
+		B61E399E2B3C684A00188261 /* Certifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E399D2B3C684A00188261 /* Certifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		B61E39852B3C3D7200188261 /* MyCVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61E39892B3C3D7200188261 /* MyCVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCVUITests.swift; sourceTree = "<group>"; };
 		B61E398B2B3C3D7200188261 /* MyCVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B61E39992B3C67D200188261 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B61E399B2B3C682100188261 /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
+		B61E399D2B3C684A00188261 /* Certifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		B61E396D2B3C3D6F00188261 /* MyCV */ = {
 			isa = PBXGroup;
 			children = (
+				B61E39982B3C67B300188261 /* Views */,
 				B61E396E2B3C3D6F00188261 /* MyCVApp.swift */,
 				B61E39702B3C3D6F00188261 /* ContentView.swift */,
 				B61E39722B3C3D7100188261 /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				B61E398B2B3C3D7200188261 /* MyCVUITestsLaunchTests.swift */,
 			);
 			path = MyCVUITests;
+			sourceTree = "<group>";
+		};
+		B61E39982B3C67B300188261 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B61E39992B3C67D200188261 /* Home.swift */,
+				B61E399B2B3C682100188261 /* Projects.swift */,
+				B61E399D2B3C684A00188261 /* Certifications.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61E399E2B3C684A00188261 /* Certifications.swift in Sources */,
 				B61E39712B3C3D6F00188261 /* ContentView.swift in Sources */,
+				B61E399A2B3C67D200188261 /* Home.swift in Sources */,
 				B61E396F2B3C3D6F00188261 /* MyCVApp.swift in Sources */,
+				B61E399C2B3C682100188261 /* Projects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
