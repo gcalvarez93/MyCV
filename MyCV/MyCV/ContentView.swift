@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-
     var body: some View {
         TabView{
             Home()
@@ -21,7 +19,21 @@ struct ContentView: View {
                     for: .tabBar)
             Projects()
                 .tabItem{
-                    Label("Mis Proyectos",systemImage: "laptopcomputer")
+                    Label("Proyectos",systemImage: "laptopcomputer")
+                    
+                }.toolbarBackground(
+                    Color.yellow,
+                    for: .tabBar)
+            Experience()
+                .tabItem{
+                    Label("Experiencia",systemImage: "case")
+                    
+                }.toolbarBackground(
+                    Color.yellow,
+                    for: .tabBar)
+            Education()
+                .tabItem{
+                    Label("Formación",systemImage: "book.closed")
                     
                 }.toolbarBackground(
                     Color.yellow,

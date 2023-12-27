@@ -17,6 +17,8 @@
 		B61E399A2B3C67D200188261 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E39992B3C67D200188261 /* Home.swift */; };
 		B61E399C2B3C682100188261 /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E399B2B3C682100188261 /* Projects.swift */; };
 		B61E399E2B3C684A00188261 /* Certifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E399D2B3C684A00188261 /* Certifications.swift */; };
+		B61E39A52B3CB98300188261 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E39A42B3CB98300188261 /* Experience.swift */; };
+		B61E39A72B3CC43200188261 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E39A62B3CC43200188261 /* Education.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		B61E39992B3C67D200188261 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		B61E399B2B3C682100188261 /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
 		B61E399D2B3C684A00188261 /* Certifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certifications.swift; sourceTree = "<group>"; };
+		B61E39A42B3CB98300188261 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		B61E39A62B3CC43200188261 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 				B61E39992B3C67D200188261 /* Home.swift */,
 				B61E399B2B3C682100188261 /* Projects.swift */,
 				B61E399D2B3C684A00188261 /* Certifications.swift */,
+				B61E39A42B3CB98300188261 /* Experience.swift */,
+				B61E39A62B3CC43200188261 /* Education.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61E39A72B3CC43200188261 /* Education.swift in Sources */,
 				B61E399E2B3C684A00188261 /* Certifications.swift in Sources */,
 				B61E39712B3C3D6F00188261 /* ContentView.swift in Sources */,
 				B61E399A2B3C67D200188261 /* Home.swift in Sources */,
+				B61E39A52B3CB98300188261 /* Experience.swift in Sources */,
 				B61E396F2B3C3D6F00188261 /* MyCVApp.swift in Sources */,
 				B61E399C2B3C682100188261 /* Projects.swift in Sources */,
 			);
