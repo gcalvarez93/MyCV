@@ -19,6 +19,7 @@
 		B61E399E2B3C684A00188261 /* Certifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E399D2B3C684A00188261 /* Certifications.swift */; };
 		B61E39A52B3CB98300188261 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E39A42B3CB98300188261 /* Experience.swift */; };
 		B61E39A72B3CC43200188261 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E39A62B3CC43200188261 /* Education.swift */; };
+		B61E39A92B3D90F300188261 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E39A82B3D90F300188261 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		B61E399D2B3C684A00188261 /* Certifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certifications.swift; sourceTree = "<group>"; };
 		B61E39A42B3CB98300188261 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 		B61E39A62B3CC43200188261 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		B61E39A82B3D90F300188261 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +106,10 @@
 		B61E396D2B3C3D6F00188261 /* MyCV */ = {
 			isa = PBXGroup;
 			children = (
-				B61E39982B3C67B300188261 /* Views */,
 				B61E396E2B3C3D6F00188261 /* MyCVApp.swift */,
 				B61E39702B3C3D6F00188261 /* ContentView.swift */,
+				B61E39A82B3D90F300188261 /* Constants.swift */,
+				B61E39982B3C67B300188261 /* Views */,
 				B61E39722B3C3D7100188261 /* Assets.xcassets */,
 				B61E39742B3C3D7100188261 /* Preview Content */,
 			);
@@ -287,6 +290,7 @@
 				B61E39A52B3CB98300188261 /* Experience.swift in Sources */,
 				B61E396F2B3C3D6F00188261 /* MyCVApp.swift in Sources */,
 				B61E399C2B3C682100188261 /* Projects.swift in Sources */,
+				B61E39A92B3D90F300188261 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCV/Preview Content\"";
@@ -465,6 +470,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcastro.MyCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCV/Preview Content\"";
@@ -494,6 +501,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcastro.MyCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

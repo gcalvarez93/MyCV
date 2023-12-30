@@ -12,101 +12,68 @@ struct Education: View {
         
         VStack {
             ScrollView{
-                Group{
-                    HStack{
-                        Text("Formación")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 35, weight: .bold))
-                        Spacer()
-                        
-                    }.padding()
-                    
-                    HStack{
-                        Text("🎓 KeepCoding")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight:.regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,8)
-                    
-                    
-                    
-                    HStack{
-                        Text("Bootcamp Desarrollo de Apps Móviles Full Stack")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 14, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
-                    
-                    HStack{
-                        Text("06/2023 - 04/2024")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 14, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,18)
-                    
-                    HStack{
-                        Text("Durante el bootcamp, estoy adquiriendo un conocimiento profundo en el desarrollo de aplicaciones iOS, cumpliendo con los estándares de excelencia de Apple. Esta experiencia me está proporcionando las competencias necesarias para el dominio del modelado de aplicaciones, CoreData, Swift, SwiftUI y el despliegue seguro de iOS, entre otros aspectos esenciales. Mi formación se centra en dominar las herramientas y tecnologías necesarias para el desarrollo completo de aplicaciones, tanto para clientes nativos (iOS y Android). Mis habilidades incluyen: #Git #Swift #TDD #CoreData #ARKit #CoreML #MapKit #CoreLocation #Fastlane #Firebase #Kotlin #ConstraintLayout #UX #FullStack. Esta sólida formación me está preparando para sobresalir en el mundo del desarrollo de aplicaciones móviles.")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 13, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,30)
-                    
-                }
-                Spacer()
-                
                 HStack{
-                    Text("🎓 IES Ramón María Aller Ulloa")
-                        .foregroundColor(Color.white)
-                        .font(.system(size: 16, weight:.regular))
+                    Text("\(EducationConstants().name)")
+                        .font(.system(size: 35, weight: .bold))
+                    
+                    Spacer()
+                }.padding()
+                
+                DisclosureGroup{
+                    
+                    Text("\(EducationConstants().education1date)")
+                        .font(.system(size: 18, weight: .bold))
+                        .padding()
+                    
+                    Text("\(EducationConstants().education1specialisation)")
+                        .font(.system(size: 18, weight: .semibold))
+                        .frame(alignment: .center)
+                    
                     Spacer()
                     
-                }.padding(.bottom,8)
+                    Text("\(EducationConstants().education1description)")
+                        .font(.system(size: 18, weight: .regular))
+                    
+                } label : {
+                    Image(systemName: "graduationcap").foregroundStyle(Color(.orange))
+                    Text("\(EducationConstants().education1school)")
+                        .font(.system(size: 20, weight: .bold))
+                        .padding()
+                    
+                }.disclosureGroupStyle(PaddedDisclosureGroup())
                 
-                
-                
-                HStack{
-                    Text("Ciclo Medio Sistemas Microinformáticos y Redes")
-                        .foregroundColor(Color.white)
-                        .font(.system(size: 14, weight: .regular))
+                //2
+                DisclosureGroup{
+                    
+                    Text("\(EducationConstants().education2date)")
+                        .font(.system(size: 18, weight: .bold))
+                        .padding()
+                    
+                    Text("\(EducationConstants().education2specialisation)")
+                        .font(.system(size: 18, weight: .semibold))
+                        .frame(alignment: .trailing)
+                        
                     Spacer()
                     
-                }.padding(.bottom,6)
-                
-                HStack{
-                    Text("2010 - 2013")
-                        .foregroundColor(Color.white)
-                        .font(.system(size: 14, weight: .regular))
-                    Spacer()
+                    Text("\(EducationConstants().education2description)")
+                        .font(.system(size: 18, weight: .regular))
+                        .frame(alignment: .trailing)
                     
-                }.padding(.bottom,18)
-                
-                HStack{
-                    Text("Montaje y mantenimiento de equipos informáticos, montaje y mantenimiento de redes e instalación de sistemas operativos.")
-                        .foregroundColor(Color.white)
-                        .font(.system(size: 13, weight: .regular))
-                    Spacer()
+                } label : {
+                    Image(systemName: "graduationcap").foregroundStyle(Color(.orange))
+                    Text("\(EducationConstants().education2school)")
+                        .font(.system(size: 20, weight: .bold))
+                        .padding()
                     
-                }.padding(.bottom,6)
+                }.disclosureGroupStyle(PaddedDisclosureGroup())
                 
             }
-            
-            
         }
         .padding()
-        .background(Color(white: 0.18))
-        
     }
     
 }
-    
 
-struct Education_Previews: PreviewProvider {
-    static var previews: some View {
-        Education()
-    }
+#Preview {
+    Education()
 }
-

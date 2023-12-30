@@ -13,207 +13,105 @@ struct Experience: View {
         VStack {
             ScrollView{
                 HStack{
-                    Text("Experiencia Laboral")
-                        .foregroundColor(Color.white)
+                    Text("\(ExperienceConstants().name)")
                         .font(.system(size: 35, weight: .bold))
                     
                     Spacer()
                 }.padding()
-                Group{
-                    HStack{
-                        Text("KeepCoding")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight:.bold))
-                        Spacer()
+                
+                //1
+                DisclosureGroup{
+                    
+                    Text("\(ExperienceConstants().exp1date)")
+                        .font(.system(size: 18, weight: .bold))
+                        .padding()
+                    
+                    
+                    Spacer()
+                    
+                    Text("\(ExperienceConstants().exp1description)")
+                        .font(.system(size: 18, weight: .regular))
                         
-                    }.padding(.bottom,15)
                     
-                    HStack{
-                        Text("06/2023 - 04/2024")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 14, weight:.regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,15)
+                } label : {
+                    Image(systemName: "case").foregroundStyle(Color(.orange))
+                    Text("\(ExperienceConstants().exp1name)")
+                        .font(.system(size: 20, weight: .bold))
+                        .padding()
                     
-                    HStack{
-                        Text("- Desarrollo de apps iOS y Android")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
+                }.disclosureGroupStyle(PaddedDisclosureGroup())
+                
+                
+                //2
+                DisclosureGroup{
                     
-                    HStack{
-                        Text("- Implementación de API REST")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
+                    Text("\(ExperienceConstants().exp2date)")
+                        .font(.system(size: 18, weight: .bold))
+                        .padding()
                     
-                    HStack{
-                        Text("- Diseño de UX/UI")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
-                    
-                    HStack{
-                        Text("- Implemetación de mapas y cifrado y persistencia de datos.")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom, 12)
+                    Spacer()
                     
                     
+                    Text("\(ExperienceConstants().exp2description)")
+                        .font(.system(size: 18, weight: .regular))
                     
-                    HStack{
-                        Text("NEORIS")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight:.bold))
-                        Spacer()
-                        
-                    }.padding(.bottom,15)
+                } label : {
+                    Image(systemName: "case").foregroundStyle(Color(.orange))
+                    Text("\(ExperienceConstants().exp2name)")
+                        .font(.system(size: 20, weight: .bold))
+                        .padding()
                     
-                    HStack{
-                        Text("07/2022 - 12/2022")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 14, weight:.regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,15)
+                }.disclosureGroupStyle(PaddedDisclosureGroup())
+                
+                DisclosureGroup{
                     
-                    HStack{
-                        Text("- Desarrollo iOS")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
+                    Text("\(ExperienceConstants().exp3date)")
+                        .font(.system(size: 18, weight: .bold))
+                        .padding()
                     
-                    HStack{
-                        Text("- Metodologías ágiles")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
                     
-                    HStack{
-                        Text("- Clean Code")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
+                    Spacer()
                     
-                    HStack{
-                        Text("- Resolución de bugs")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,12)
+                    Text("\(ExperienceConstants().exp3description)")
+                        .font(.system(size: 18, weight: .regular))
                     
-                    HStack{
-                        Text("Quental")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight:.bold))
-                        Spacer()
-                        
-                    }.padding(.bottom,15)
+                } label : {
+                    Image(systemName: "case").foregroundStyle(Color(.orange))
+                    Text("\(ExperienceConstants().exp3name)")
+                        .font(.system(size: 20, weight: .bold))
+                        .padding()
                     
-                    HStack{
-                        Text("05/2022 - 07/2022")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 14, weight:.regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,15)
+                }.disclosureGroupStyle(PaddedDisclosureGroup())
+                
+                DisclosureGroup{
                     
-                    HStack{
-                        Text("- Desarrollo de apps iOS")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
+                    Text("\(ExperienceConstants().exp4date)")
+                        .font(.system(size: 18, weight: .bold))
+                        .padding()
                     
-                    HStack{
-                        Text("- Diseño UX/UI")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
                     
-                    HStack{
-                        Text("- Despliegue en App Store")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
+                    Spacer()
                     
-                    HStack{
-                        Text("Freelance")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight:.bold))
-                        Spacer()
-                        
-                    }.padding(.bottom,15)
+                    Text("\(ExperienceConstants().exp4description)")
+                        .font(.system(size: 18, weight: .regular))
                     
-                    HStack{
-                        Text("07/2020 - 05/2022")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 14, weight:.regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,15)
+                } label : {
+                    Image(systemName: "case").foregroundStyle(Color(.orange))
+                    Text("\(ExperienceConstants().exp4name)")
+                        .font(.system(size: 20, weight: .bold))
+                        .padding()
                     
-                    HStack{
-                        Text("- Desarrollo de apps iOS y Android")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
-                    
-                    HStack{
-                        Text("- Implemetación de API REST")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
-                    
-                    HStack{
-                        Text("- Diseño de UX/UI")
-                            .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .regular))
-                        Spacer()
-                        
-                    }.padding(.bottom,6)
-                }
-                Spacer()
+                }.disclosureGroupStyle(PaddedDisclosureGroup())
+                
             }
         }
         .padding()
-        .background(Color(white: 0.18))
-        
-        
-        
     }
     
 }
 
+    
 
-struct Experience_Previews: PreviewProvider {
-    static var previews: some View {
-        Experience()
-    }
+#Preview {
+    Experience()
 }
-

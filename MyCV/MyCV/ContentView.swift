@@ -8,50 +8,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @Environment(\.colorScheme) var colorScheme: ColorScheme
+    
     var body: some View {
         TabView{
             Home()
                 .tabItem{
-                    Label("Home",systemImage: "house")
+                    Label(("\(TabItem().home)"),systemImage: "house")
                         
-                }.toolbarBackground(
-                    Color.yellow,
-                    for: .tabBar)
+                }
+            
             Projects()
                 .tabItem{
-                    Label("Proyectos",systemImage: "laptopcomputer")
+                    Label(("\(TabItem().projects)"),systemImage: "laptopcomputer")
                     
-                }.toolbarBackground(
-                    Color.yellow,
-                    for: .tabBar)
+                }
+            
             Experience()
                 .tabItem{
-                    Label("Experiencia",systemImage: "case")
+                    Label(("\(TabItem().experience)"),systemImage: "case")
                     
-                }.toolbarBackground(
-                    Color.yellow,
-                    for: .tabBar)
+                }
+            
             Education()
                 .tabItem{
-                    Label("Formación",systemImage: "book.closed")
+                    Label(("\(TabItem().education)"),systemImage: "graduationcap")
                     
-                }.toolbarBackground(
-                    Color.yellow,
-                    for: .tabBar)
+                }
+            
             Certifications()
                 .tabItem{
-                    Label("Certificaciones",systemImage: "book")
+                    Label(("\(TabItem().certifications)"),systemImage: "doc.text")
                     
-                }.toolbarBackground(
-                    Color.yellow,
-                    for: .tabBar)
-            
+                }
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }
