@@ -19,6 +19,13 @@ struct Education: View {
                     Spacer()
                 }.padding()
                 
+                HStack{
+                    Text("\(EducationConstants().description)")
+                        .font(.system(size: 18, weight: .regular))
+                    
+                    Spacer()
+                }.padding(.bottom,20)
+                
                 DisclosureGroup{
                     
                     Text("\(EducationConstants().education1date)")

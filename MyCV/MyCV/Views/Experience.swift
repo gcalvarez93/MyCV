@@ -19,6 +19,13 @@ struct Experience: View {
                     Spacer()
                 }.padding()
                 
+                HStack{
+                    Text("\(ExperienceConstants().description)")
+                        .font(.system(size: 18, weight: .regular))
+                    
+                    Spacer()
+                }.padding(.bottom,20)
+                
                 //1
                 DisclosureGroup{
                     
@@ -109,7 +116,6 @@ struct Experience: View {
     }
     
 }
-
     
 
 #Preview {

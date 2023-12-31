@@ -29,7 +29,6 @@ struct HomeConstants {
     var linkedinurl = "https://www.linkedin.com/in/gabriel-castro-alvarez/"
     var github = "GitHub"
     var githuburl = "https://github.com/gcalvarez93"
-    var githubbutton = "Mira todos mis proyectos"
     var abouttitle = "Sobre mí"
     var about = """
     ✅ Conocimiento profundo de Swift y Kotlin
@@ -59,22 +58,18 @@ struct HomeConstants {
 
 struct ProjectsConstants {
     var name = "Mis Proyectos"
-    var description = "Todos los proyectos creados durante mi proceso de aprendizaje para obtener conocimientos en el desarrollo de Apps Móviles se almacenan en mi GitHub personal. A continuación puedes encontrar algunos proyectos de los que estoy muy orgulloso y que muestran mis conocimientos en Swift y Kotlin."
-    var buttonName = "Ver Proyecto"
+    var description = "Todos los proyectos creados durante mi proceso de aprendizaje para obtener conocimientos en el desarrollo de Apps Móviles se almacenan en mi GitHub personal. A continuación puedes encontrar algunos proyectos de los que estoy muy orgulloso y que muestran mis conocimientos en Swift y Kotlin o, si lo prefieres puedes pulsar el botón para ver todos mis proyectos."
+    var githubrepositories = "https://github.com/gcalvarez93?tab=repositories"
+    var githubbutton = "Mira todos mis proyectos"
     var project1 = "Práctica iOS Súper Poderes"
-    var project1description = "Esta práctica consiste en desarrollar una App en SwiftUI que consuma la API de Marvel utilizando la arquitectura MVVM y Combine."
     var project1url = "https://github.com/gcalvarez93/practica-ios-superpoderes"
     var project2 = "Práctica iOS Avanzado"
-    var project2description = "El objetivo de esta práctica es poner en práctica los contenidos vistos en el módulo. Se deberá crear un proyecto iOS usando Storyboard, Core Data y Tests."
     var project2url = "https://github.com/gcalvarez93/practica-ios-avanzado"
     var project3 = "Práctica Fundamentos iOS"
-    var project3description = "El proyecto consiste en una app que consume el API de Dragon Ball de KeepCoding. La app consta de 3 pantallas, un login, una pantalla con una lista de héroes y una pantalla de detalle de cada héroe. Además los héroes que tienen transformaciones muestran un botón para ver las transformaciones de dicho héroe"
     var project3url = "https://github.com/gcalvarez93/practica-fundamentos-ios"
     var project4 = "Práctica Fundamentos Android"
-    var project4description = "Desarrollo de una app Android que consuma el Api de Dragon Ball utilizando XML y la arquitectura MVVM. La App consta de 3 pantallas; Login, Lista de Héroes donde se muestra la vida del Héroe, y la pantalla de la lucha del héroe, donde quitamos vida o curamos al héroe. También muestro la pantalla donde se ve al héroe herido."
     var project4url = "https://github.com/gcalvarez93/practica-fundamentos-android"
     var project5 = "Práctica UX/UI"
-    var project5description = "En esta práctica diseñamos las pantallas para una app de superhéroes de Marvel usando Figma."
     var project5url = "https://github.com/gcalvarez93/practica-ux-ui"
 }
 
@@ -82,20 +77,23 @@ struct ProjectsConstants {
 
 struct EducationConstants {
     var name = "Formación"
+    var description = "Durante mi etapa de formación me he especializado en diferentes especialidades dentro del sector IT. Primero hice un Ciclo de Grado Medio de Sistemas microinformáticos y redes, realizado en el IES Ramón María Aller Ulloa, pero ante la falta de oportunidades laborales he decidido cambiar de rumbo mi carrera y dedicarme al desarrollo mobile, el cual puedo decir que es mi verdadera pasión. Relacionado con este cambio laboral hice primero cursos en Udemy y Platzi, que puedes ver en la pestaña Certificaciones, y actualmente estoy cursando el bootcamp de Desarrollo de Apps Móviles Full Stack de KeepCoding."
     var education1school = "KeepCoding"
     var education1specialisation = "Bootcamp Desarrollo de Apps Móviles Full Stack"
     var education1date = "06/2023 - 04/2024"
-    var education1description = "Durante el bootcamp, estoy adquiriendo un conocimiento profundo en el desarrollo de aplicaciones iOS, cumpliendo con los estándares de excelencia de Apple. Esta experiencia me está proporcionando las competencias necesarias para el dominio del modelado de aplicaciones, CoreData, Swift, SwiftUI y el despliegue seguro de iOS, entre otros aspectos esenciales. Mi formación se centra en dominar las herramientas y tecnologías necesarias para el desarrollo completo de aplicaciones, tanto para clientes nativos (iOS y Android). Mis habilidades incluyen: #Git #Swift #TDD #CoreData #ARKit #CoreML #MapKit #CoreLocation #Fastlane #Firebase #Kotlin #ConstraintLayout #UX #FullStack. Esta sólida formación me está preparando para sobresalir en el mundo del desarrollo de aplicaciones móviles."
+    var education1description = "Durante el Bootcamp, estoy adquiriendo un conocimiento profundo en el desarrollo de aplicaciones iOS, cumpliendo con los estándares de excelencia de Apple. Esta experiencia me está proporcionando las competencias necesarias para el dominio del modelado de aplicaciones, CoreData, Swift, SwiftUI y el despliegue seguro de iOS, entre otros aspectos esenciales. Mi formación se centra en dominar las herramientas y tecnologías necesarias para el desarrollo completo de aplicaciones, tanto para clientes nativos (iOS y Android). Mis habilidades incluyen: #Git #Swift #TDD #CoreData #ARKit #CoreML #MapKit #CoreLocation #Fastlane #Firebase #Kotlin #ConstraintLayout #UX #FullStack. Esta sólida formación me está preparando para sobresalir en el mundo del desarrollo de aplicaciones móviles."
     var education2school = "IES Ramón María Aller Ulloa"
     var education2specialisation = "Ciclo Medio Sistemas Microinformáticos y Redes"
     var education2date = "2010 - 2013"
-    var education2description = "Montaje y mantenimiento de equipos informáticos, instalación y mantenimiento de redes e instalación de sistemas operativos."
+    var education2description = "Durante este programa de formación técnica, adquirí habilidades sólidas en el montaje y mantenimiento de equipos informáticos, así como en la configuración y administración de sistemas operativos, con enfoque especial en Windows y Linux. Además, desarrollé competencias prácticas en la implementación y gestión de redes locales, incluyendo la solución de problemas de conectividad. El curso también abordó conceptos clave de seguridad informática y prácticas de programación básica, proporcionándome una base integral en el campo de los sistemas microinformáticos y redes."
+    
 }
 
 // MARK: - Experience Constants -
 
 struct ExperienceConstants{
     var name = "Experiencia Laboral"
+    var description = "He centrado la mayor parte de mi carrera en el desarrollo iOS, aunque también he hecho algun proyecto en Android. A continuación muestro mi experiencia laboral más detalladamente."
     var exp1name = "KeepCoding"
     var exp1date = "06/2023 - 04/2024"
     var exp1description = """
@@ -111,7 +109,7 @@ struct ExperienceConstants{
     var exp2date = "07/2022 - 12/2022"
     var exp2description = """
 - Desarrollo iOS
-- Metodologías ágiles
+- Metodologías Ágiles
 - Clean Code
 - Resolución de bugs
 """
@@ -127,7 +125,7 @@ struct ExperienceConstants{
     var exp4name = "Freelance"
     var exp4date = "07/2020 - 05/2022"
     var exp4description = """
-- Desarrollo de apps iOS y Android
+- Desarrollo de apps iOS
 - Implemetación de API REST
 - Diseño de UX/UI
 """
@@ -140,15 +138,24 @@ struct CertificationsConstants{
     var certdescription = "Después de completar el curso de Kotlin para Desarrolladores Android de DevExpert actualmente estoy cursando el Bootcamp de Desarrollo de Apps Móviles de KeepCoding. Además tambien estoy desarrollando mis propios proyectos para poner en práctica lo aprendido."
     var skillstitle = "Skills Aprendidas"
     var learnedskills = """
-- Desarrollo iOS con Swift
-- StoryBoards,XiB y SwiftUI
-- Clean Code
-- Core Data y KeyChain
-- MapKit & CoreLocation
-- Desarrollo Android con Kotlin
-- XML y Compose
-- Patrones de Diseño
-- UX/UI
+- Xcode
+- Swift
+- Autolayout
+- SwiftUI
+- Coredata
+- Keychain
+- TDD
+- ARKit
+- CoreML
+- CoreLocation
+- Firebase
+- Git
+- Designpatterns
+- iOS
+- Android
+- Kotlin
+- Compose
+- UX
 """
     
     var certlinks = "Certificaciones"

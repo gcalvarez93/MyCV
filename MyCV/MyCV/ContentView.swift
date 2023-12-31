@@ -16,12 +16,11 @@ struct ContentView: View {
             Home()
                 .tabItem{
                     Label(("\(TabItem().home)"),systemImage: "house")
-                        
                 }
             
             Projects()
                 .tabItem{
-                    Label(("\(TabItem().projects)"),systemImage: "laptopcomputer")
+                    Label(("\(TabItem().projects)"),systemImage: "folder")
                     
                 }
             
