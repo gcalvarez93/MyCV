@@ -1,6 +1,6 @@
 # MyCV
 
-Aplicación para iOS donde muestro mi CV, desarrollada con Swift y SWiftUI.
+Aplicación para iOS donde muestro mi CV, desarrollada con Swift y SwiftUI.
 
 ![https://github.com/gcalvarez93](https://raw.githubusercontent.com/gcalvarez93/MyCV/main/homescreen1.png)
 ![https://github.com/gcalvarez93](https://raw.githubusercontent.com/gcalvarez93/MyCV/main/homescreen2.png)
